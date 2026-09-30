@@ -1,0 +1,57 @@
+Problema abordado: El "sesgo de automatización" (Automation Bias), un fenómeno cognitivo donde los operadores humanos tienden a confiar excesivamente en las decisiones o clasificaciones generadas por un sistema automatizado, disminuyendo su propio nivel de escrutinio y validación.
+
+Antecedentes relevantes: A medida que los sistemas de IA se integran en tareas de validación (desde diagnósticos médicos hasta moderación de contenido), los estudios muestran una paradoja: la asistencia de la IA acelera el trabajo, pero induce a "errores de omisión" (el humano no nota el error porque la máquina dijo que estaba bien).
+
+Pregunta de investigación: ¿En qué medida la presencia de una sugerencia automatizada errónea influye en la tasa de error y el tiempo de validación de un operador humano frente a una tarea de clasificación visual?
+
+Aporte a la disciplina: Demuestra que el diseño de sistemas de Inteligencia Artificial no debe centrarse solo en la precisión del algoritmo, sino en la "Interacción Humano-IA". Aporta evidencia para diseñar interfaces de IA que fomenten el pensamiento crítico humano en lugar de la complacencia.
+
+----
+
+
+Lógica de funcionamiento: La app simulará un panel de moderación de datos. Se le presentará al usuario una serie de imágenes que debe validar rápidamente. Para darle contexto al experimento, la aplicación podría simular un inventario de accesorios automotrices; por ejemplo, la pantalla muestra imágenes de piezas y el usuario debe validar si la etiqueta descriptiva es correcta.
+
+El "Truco" (Diseño del experimento): Junto a la imagen, la app mostrará un mensaje: "Sugerencia de la IA: Correcto".
+
+En el 80% de los casos, la IA tendrá razón.
+
+En el 20% de los casos, la IA estará deliberadamente equivocada (por ejemplo, sugiriendo que un emblema de fibra de carbono es en realidad de plástico negro brillante).
+
+Utilidad académica: La app no solo muestra la interfaz, sino que registra silenciosamente en su base de datos qué botón presionó el usuario y cuántos milisegundos demoró en tomar la decisión.
+
+
+
+----
+
+Experiencia que se realizará: Los participantes se sentarán frente a la aplicación web y deberán clasificar 30 registros consecutivos lo más rápido posible. Un grupo de control hará la tarea sin asistencia de la IA, y el grupo experimental la hará viendo las "sugerencias" del sistema (incluyendo los errores programados).
+
+Participantes: 20 estudiantes universitarios, familiarizados con el uso de plataformas digitales, divididos aleatoriamente en dos grupos de 10.
+
+Condiciones de prueba: Entorno controlado y silencioso, utilizando un PC de escritorio. Se les indicará que la velocidad y la precisión son igualmente importantes.
+
+Aspectos a observar o medir:
+
+Nivel de complacencia (cuántos errores evidentes fueron pasados por alto por confiar en la IA).
+
+Velocidad de procesamiento de la tarea.
+
+Percepción subjetiva de confianza en la máquina.
+
+Instrumentos de registro:
+
+Base de datos interna de la aplicación (captura de clics y timestamps).
+
+Breve cuestionario final integrado en la misma app.
+
+Evidencia que se espera obtener y Análisis
+Datos Cuantitativos:
+
+Tasa de error (comparación del % de fallos entre el grupo con IA y el grupo sin IA).
+
+Tiempos de respuesta (milisegundos que tardan en aprobar una decisión correcta vs. una incorrecta sugerida por la IA).
+
+Datos Cualitativos:
+
+Respuestas de una escala Likert (ej. "Sentí que la IA me ayudó a trabajar más rápido", "Confié plenamente en la sugerencia del sistema").
+
+Comentarios abiertos sobre por qué decidieron aprobar un registro cuando tenían dudas.
